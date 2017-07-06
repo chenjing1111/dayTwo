@@ -1,0 +1,107 @@
+/* line 1, style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* line 6, style.scss */
+html, body {
+  width: 100%;
+  height: 100%; }
+
+/* line 10, style.scss */
+.maxBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -webkit-flex-direction: column; }
+
+/* line 16, style.scss */
+header {
+  flex-shrink: 0;
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  background: #666;
+  position: relative;
+  color: #fff; }
+  /* line 24, style.scss */
+  header .error {
+    position: absolute;
+    left: .3rem;
+    font-size: 1.5rem; }
+  /* line 29, style.scss */
+  header .text {
+    position: absolute;
+    left: 2rem;
+    font-size: 1rem; }
+  /* line 34, style.scss */
+  header .icon {
+    position: absolute;
+    right: .3rem;
+    font-size: 1.5rem; }
+
+/* line 40, style.scss */
+.main {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  background: #999; }
+  /* line 45, style.scss */
+  .main .box {
+    width: 90%;
+    height: 22rem;
+    background: #fff;
+    margin-top: 1.5rem;
+    margin-left: 5%;
+    border-radius: 10px; }
+    /* line 52, style.scss */
+    .main .box .top {
+      width: 12rem;
+      height: 8rem;
+      padding: 2rem 0 0 4rem; }
+      /* line 56, style.scss */
+      .main .box .top .one {
+        width: 6rem;
+        height: 2rem;
+        margin-left: .8rem;
+        line-height: 2rem;
+        font-size: .9rem; }
+        /* line 62, style.scss */
+        .main .box .top .one img {
+          width: 100%;
+          height: 100%; }
+      /* line 67, style.scss */
+      .main .box .top .two {
+        margin-top: .3rem;
+        font-size: .9rem; }
+  /* line 73, style.scss */
+  .main .inp {
+    width: 80%;
+    margin: 0 10%; }
+    /* line 76, style.scss */
+    .main .inp p {
+      width: 100%;
+      height: 3rem;
+      border-bottom: 1px solid #ccc; }
+      /* line 80, style.scss */
+      .main .inp p img {
+        margin-top: .5rem;
+        width: 1.5rem;
+        height: 2rem; }
+      /* line 85, style.scss */
+      .main .inp p input {
+        border: none;
+        padding-left: .6rem; }
+  /* line 91, style.scss */
+  .main .btn {
+    width: 80%;
+    height: 2rem;
+    background: limegreen;
+    border: none;
+    margin-left: 10%;
+    margin-top: 3rem;
+    color: #fff;
+    border-radius: .6rem; }
+
+/*# sourceMappingURL=style.css.map */
